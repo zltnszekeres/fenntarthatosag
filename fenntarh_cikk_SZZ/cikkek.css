@@ -1,0 +1,120 @@
+
+
+header{
+    margin: auto;
+}
+
+
+#gyujtemeny{
+    
+    border-radius: 10px solid;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    flex: 0 0 10%;
+    margin: auto;
+    z-index: -1;
+}
+
+.elemek{
+    padding: 35px;
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid gold;
+    width:400px ;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    background-color: azure;
+
+
+}
+
+
+
+.elemek h1{
+    font-size: 22px;
+    color: black;
+}
+.elemek h4{
+    font-size: 14px;
+    color: black;
+}
+
+
+
+button{
+    padding: 2px; 
+    position: absolute;
+    
+    bottom: 12px;
+    
+    border: 2px solids;
+    
+    text-align: center;
+    background-color: antiquewhite ;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 11pt;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#beolvas{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: ghostwhite;
+    color: rgb(29, 29, 55);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+   
+#beolvas h1{
+    border-bottom: 2px solid;
+    color: rgb(16, 65, 16);
+}
+#beolvas h4{
+    color: rgb(41, 41, 97);
+}
+
+#beolvas p{
+    max-width: 70%;
+    text-align: justify;
+    background-color: azure;
+    border-radius: 2%;
+    padding: 5px;
+    border:  1px solid gray;
+
+
+}
+
+
+#beolvas img {
+
+    float:right;
+    width: 300px;
+    border: 1px solid gold;
+    margin: 10px;
+    
+}
+
+
+
+ 
+
+@media screen and (max-width: 800px) {
+    #gyujtemeny{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #beolvas img{
+        width: 150px;
+    }
+}
+  
